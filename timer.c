@@ -23,6 +23,26 @@ int main(){
 
 	/*infinity loop */
 	for(;;){
-		
+		update(&systime);
+		display(&systime);
 	}
+
+	void update(struct my_time *t){
+		t->seconds++;
+		if(t->seconds == 60){
+			t->seconds = 0;
+			t->minutes++;
+		}
+
+		if(minutes == 60){
+			t->minutes = 0;
+			t->hours++;
+		}
+
+		if(t->hours == 24)
+			t->hours = 0;
+		delay();
+	}
+
+	void display
 }
