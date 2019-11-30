@@ -1,4 +1,3 @@
-/* Just a simple timer */
 #include <stdio.h>
 
 /*You can change it */
