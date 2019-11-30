@@ -1,7 +1,7 @@
 /* A timer */
 #include <stdio.h>
 
-//You can change it
+/*You can change it */
 #define DELAY 128000
 
 struct my_time{
@@ -10,6 +10,19 @@ struct my_time{
 	int seconds;
 };
 
-int main(){
+void display(struct my_time *t);
+void update(struct my_time *t);
+void delay(void);
 
+int main(){
+	struct my_time systime;
+
+	systime.hours = 0;
+	systime.minutes = 0;
+	systime.seconds = 0;
+
+	/*infinity loop */
+	for(;;){
+		
+	}
 }
