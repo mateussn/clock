@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*You can change it */
+/* You can change it */
 #define DELAY 128000
 
 struct my_time{
@@ -20,7 +20,7 @@ int main(){
 	systime.minutes = 0;
 	systime.seconds = 0;
 
-	/*infinity loop */
+	/* Infinity loop */
 	for(;;){
 		update(&systime);
 		display(&systime);
