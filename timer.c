@@ -20,7 +20,6 @@ int main(){
 	systime.minutes = 0;
 	systime.seconds = 0;
 
-	/* Infinity loop */
 	for(;;){
 		update(&systime);
 		display(&systime);
