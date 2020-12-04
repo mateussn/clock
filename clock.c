@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-/* You can change it */
-#define DELAY 128000
+#define DELAY 128000 /* You can change this value */
 
 struct my_time{
 	int hours;
