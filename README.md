@@ -1,2 +1,2 @@
-# Timer
-Just a simple timer in C
+# Clock
+Just a simple clock in the marvelous C language
